@@ -2,8 +2,14 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+# A function that set the inverse of a matrix
 makeCacheMatrix <- function(x = matrix()) {
+  
+  cachedInvertedMatrix <- NULL
+  invertMatrix <- function(x) { 
+    cachedInvertedMatrix <<- solve(x)
+  }
+  list(invertMatrix = invertMatrix)
 
 }
 
