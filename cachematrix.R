@@ -2,7 +2,11 @@
 ## functions do
 
 ## Write a short comment describing this function
-# A function that set the inverse of a matrix
+# create a list of functions that 
+#a) sets a list of 3 objects ( matrix, inverted and control)
+#b) sets a matrix 
+#d) gets a matrix 
+#e) gets the inverse of a matrix ( if already has calculated the matrix, if not, first inversts the matrix)
 makeCacheMatrix <- function(x = matrix()) {
   
   cachedInvertedMatrix <- NULL
