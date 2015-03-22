@@ -37,7 +37,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
   # if is not a square Matrix, show an error
   if (attributes(x)$dim[1] != attributes(x)$dim[2])  {
-      print ("Warining: Matrix is not squared!, can't be inverted")
+      print ("Warning: Matrix is not squared!, can't be inverted")
   } else {  
       if ( is.null(cachedInvertedMatrix) )  {  # calculate the inverse if has not been already calculated 
         
